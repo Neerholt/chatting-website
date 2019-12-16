@@ -1,0 +1,223 @@
+/* 
+    Created on : Dec 16, 2019, 8:34:01 AM
+    Author     : vict3459
+*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    height: auto;
+    background-image: linear-gradient(to right,#577284,#2A4B7C);
+}
+
+
+header nav{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 6%;
+    position: relative;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #D8D8D8;
+    
+}
+
+header nav ul{
+    display: block;  
+}
+
+
+header nav ul li{
+    display: inline-block;
+    padding-left: 13px;
+    padding-right: 13px;
+    line-height: 60px;
+}
+
+header nav ul li:hover{
+    background-color: #A9A9A9;
+    /*box-shadow: 0 8px 6px -6px red;*/
+}
+
+
+header nav ul li a{
+    display: block;
+    color:black;
+    font-size: 40px;
+}
+
+
+main #wrapper{
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: auto;
+}
+
+main #left-div{
+    float: left;
+    width: 20%;
+    height: auto;
+    clear: both;
+}
+
+/*right div ikke center div*/
+main #center-div{
+    float: right;
+    width: 20%;
+    height: 50%;
+}
+
+
+/*Center div ikke right div*/
+main #right-div{
+    margin-top: -1.8%;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    width: 60%;
+    height: auto;
+}
+
+
+/*------------------------------------------------------------------------------*/
+#container{
+    margin-left: 5.2%;
+    margin-right: 50%;
+    margin-top: 3%;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 70%;
+    background-color:#D8D8D8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    float: left;  
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+#container:hover{
+    box-shadow: 0 8px 6px -1px black;
+    background-color: #A9A9A9;
+    /*background-color:#45B8AC;*/
+}
+
+
+#container-kasse-text{
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    border-color: black;
+}
+
+
+#container-kasse-text-gap{
+    font-size: 0.9vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    line-height: 22px;
+    text-align: justify;
+    width: 92%;
+    height: 100%;
+    background-color: whitesmoke;  
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+#container-login{
+    margin-bottom: 1%;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    background-color:#D8D8D8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    float: left;  
+    border-style: solid;
+    border-width: 1px;
+}
+
+#container-kasse-login{
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    border-color: black;
+}
+
+
+#container-kasse-text-gap-login{
+    font-size: 0.9vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    line-height: 22px;
+    text-align: justify;
+    width: 92%;
+    height: 100%;
+    background-color: whitesmoke;  
+}
+
+div p a:hover{
+    color: red;
+}
+
+
+/*
+
+Bliver ikke brugt, kan bruges til at give left-div style
+
+
+#container-link{
+    margin-bottom: 1%;
+    margin-left: 5.2%;
+    margin-right: 50%;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 70%;
+    background-color:#D8D8D8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    float: left;  
+    border-style: solid;
+    border-width: 1px;
+}
+
+#container-kasse-link{
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    border-color: black;
+}
+
+
+#container-kasse-text-gap-link{
+    font-size: 0.9vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    line-height: 22px;
+    text-align: justify;
+    width: 92%;
+    height: 100%;
+    background-color: whitesmoke;  
+}
+
+
+*/
